@@ -12,6 +12,7 @@
 .promo {
   height: 800px;
   background: url('../img/bg/main_bg.png') center center/cover no-repeat;
+  padding: 39px 0 62px 0;
 }
 
 .logo .logo_img {
@@ -25,6 +26,93 @@
   font-family: Roboto;
   font-size: 15px;
   font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+h1 {
+  margin-top: 53px;
+}
+
+h2.title {
+  margin-top: 20px;
+}
+
+.title {
+  color: #F9BF3B;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.simple .title_big {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 80px;
+  text-transform: uppercase;
+  margin-top: 21px;
+}
+
+.promo .promo_text {
+  padding: 0 13px;
+  margin-top: 23px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.promo .promo_text span {
+  color: #F9BF3B;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 73px;
+  width: 313px;
+  height: 72px;
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  color: #FFF;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  font-family: RobotoCondensed;
+  font-size: 21px;
+  font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.more {
+  margin-top: 70px;
+}
+
+.more .more_text {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
 }

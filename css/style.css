@@ -79,7 +79,7 @@ h2.title {
   line-height: 28px;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -97,6 +97,10 @@ h2.title {
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
+}
+
+.gift .gift_btn {
+  margin-top: 51px;
 }
 
 .more {
@@ -120,7 +124,7 @@ h2.title {
 
 .waiting {
   min-height: 607px;
-  fill: #EFEFEF;
+  background-color: #EFEFEF;
   padding: 85px 0 75px 0;
 }
 
@@ -252,4 +256,27 @@ h2.title {
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
+}
+
+.gift {
+  padding: 86px 0 88px 0;
+  min-height: 631px;
+  background-color: #EFEFEF;
+}
+
+.gift .gift_img {
+  display: block;
+  margin: 0 auto;
+  width: 154px;
+  height: 174px;
+}
+
+.gift .gift_text {
+  margin-top: 45px;
+  text-align: center;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
 }

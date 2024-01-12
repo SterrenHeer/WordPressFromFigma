@@ -128,7 +128,7 @@ h2.title {
   padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .first .first_header {
   color: #252525;
   text-align: center;
   font-family: Roboto;
@@ -140,6 +140,10 @@ h2.title {
 
 .finish .finish_header {
   color: #EFEFEF;
+}
+
+.first .first_header {
+  margin-top: 36px;
 }
 
 .waiting .waiting_divider, .finish .finish_divider {
@@ -190,7 +194,7 @@ h2.title {
   padding: 108px 0 74px 0;
 }
 
-.optimization .optimization_header {
+.optimization .optimization_header, .first .first_subheader {
   margin-left: 391px;
   color: #299CBD;
   font-family: Roboto;
@@ -198,6 +202,11 @@ h2.title {
   font-weight: 900;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.first .first_subheader {
+  margin: 30px 0 0 0;
+  text-align: center;
 }
 
 .optimization .optimization_text {
@@ -267,8 +276,6 @@ h2.title {
 .gift .gift_img {
   display: block;
   margin: 0 auto;
-  width: 154px;
-  height: 174px;
 }
 
 .gift .gift_text {
@@ -279,4 +286,60 @@ h2.title {
   font-size: 30px;
   font-weight: 400;
   line-height: 43px;
+}
+
+.first {
+  padding: 89px 0 51px 0;
+}
+
+.first .first_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first .first_text {
+  margin-top: 25px;
+  color: #4A4A4A;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+footer {
+  min-height: 169px;
+  padding: 57px 0 69px 0;
+  background-color: #1A1A1A;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_link, footer .footer_divider, footer .footer_descr {
+  color: #888;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+
+footer .footer_divider, footer .footer_descr {
+  text-decoration: none;
+}
+
+footer .footer_divider {
+  margin: 0 8px;
 }
